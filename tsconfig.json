@@ -5,5 +5,7 @@
       "miniprogram-api-typings",
       "mini-types"
     ]
-  }
+  },
+  "include": ["src/*"],
+  "exclude": [] 
 }

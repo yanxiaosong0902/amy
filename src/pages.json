@@ -1,9 +1,14 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "招考宝"
+			}
+		}, {
+			"path": "pages/signin/index",
+			"style": {
+				"navigationBarTitleText": "登录/注册"
 			}
 		}
 	],

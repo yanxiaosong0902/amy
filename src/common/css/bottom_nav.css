@@ -1,0 +1,69 @@
+/* 底部 */
+	.buttom-box{
+		width: 100%;
+		background: rgba(247, 247, 247, 0.1);
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+	}
+	.buttom{
+		width: 100%;
+		height: 140rpx;
+		background: #FFFFFF;
+		box-shadow: 0rpx 0rpx 18rpx 0rpx rgba(162, 162, 162, 0.08);
+		border-radius: 60rpx 60rpx 0rpx 0rpx;
+	}
+	.buttom_item{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 18rpx;
+	}
+	.buttom_item_list{
+		
+	}
+	.buttom_item_list:first-child{
+		margin-left: 70rpx;
+	}
+	.buttom_item_list:last-child{
+		margin-right: 70rpx;
+	}
+	.icon_box{
+		position: relative;
+		width: 44rpx;
+		height: 44rpx;
+	}
+	.icon_box .icon1{
+		width: 100%;
+		height: 100%;
+	}
+	.icon_box .icon1{
+		width: 100%;
+		height: 100%;
+	}
+	.icon_box .icon2{
+		position: absolute;
+		bottom: 4rpx;
+		right: 4rpx;
+		width: 30rpx;
+		height: 30rpx;
+		border-radius: 50%;
+		background-color: rgb(255, 255, 255, 0);
+	}
+	.buttom_item_list.active .icon2{
+		background-color: rgba(55, 182, 255, 0.7);
+	}
+	.icon_text{
+		font-size: 20rpx;
+		font-family: PingFang SC;
+		font-weight: 500;
+		color: #666666;
+		margin-top: 10rpx;
+		text-align: center;
+	}
+	.buttom_item_list.active .icon_text{
+		/* color: rgb(32, 174, 255); */
+	}
+	/* 底部 end */
